@@ -1,0 +1,17 @@
+Reverse Turn
+
+Man
+1. Left foot forward
+2. Right foot to side
+3. Left foot closes to right foot
+4. Right foot back
+5. Left foot to side
+6. Right foot closes to left foot
+
+Lady
+1. Right foot back
+2. Left foot to side
+3. Right foot closes to left foot
+4. Left foot forward
+5. Right foot to side
+6. Left foot closes to right foot

@@ -1,0 +1,19 @@
+Controls:
+
+-WASD or arrow keys to move around
+
+-Hold shift to move around quicker
+
+-Hold right mouse button to look around
+
+-Space to ascend
+
+-Left Ctrl to descend
+
+-Lock Camera: locks the camera in place and follows the dancers, press it again to unlock camera
+
+-Reset: reset the position of the dancers and the camera
+
+-Use the slider to adjust the speed
+
+-Press pause to stop the step, press play to continue
