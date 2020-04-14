@@ -36,7 +36,7 @@ public class ModifySpeed : MonoBehaviour
 
     public void ContinueAnimation()
     {
-        if(speedBeforePause != 0)
+        if(speedBeforePause != 0 && girlAnimator.speed == 0)
         {
             girlAnimator.speed = speedBeforePause;
             guyAnimator.speed = speedBeforePause;
