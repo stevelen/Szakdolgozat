@@ -170,7 +170,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 61e9cbb6e7168ef4399a3c79544b5d97, type: 2}
+  - {fileID: 2100000, guid: df2f87b7488dda749b5f0dfeb0ba8972, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1022,7 +1022,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 61e9cbb6e7168ef4399a3c79544b5d97, type: 2}
+  - {fileID: 2100000, guid: df2f87b7488dda749b5f0dfeb0ba8972, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2573,8 +2573,6 @@ MonoBehaviour:
   movementSpeed: 200
   fastMovementSpeed: 500
   freeLookSensitivity: 3
-  zoomSensitivity: 10
-  fastZoomSensitivity: 50
   ceiling: {fileID: 1120478610}
   leftWall: {fileID: 29517529}
   rightWall: {fileID: 1943871236}
@@ -2788,13 +2786,23 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 144230ce7b7c3a74388046c3812cd102,
         type: 3}
       propertyPath: m_Name
-      value: newbaseline
+      value: Guy
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 144230ce7b7c3a74388046c3812cd102,
         type: 3}
       propertyPath: m_TagString
       value: Man
       objectReference: {fileID: 0}
+    - target: {fileID: -8178057833164653975, guid: 144230ce7b7c3a74388046c3812cd102,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: 144230ce7b7c3a74388046c3812cd102,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: d0f4fd2f5ba40644191d1fa7a7f43b28, type: 2}
     - target: {fileID: -4216859302048453862, guid: 144230ce7b7c3a74388046c3812cd102,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2850,11 +2858,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: 144230ce7b7c3a74388046c3812cd102,
+    - target: {fileID: -2419054551443661924, guid: 144230ce7b7c3a74388046c3812cd102,
         type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: d0f4fd2f5ba40644191d1fa7a7f43b28, type: 2}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -1189196738635028255, guid: 144230ce7b7c3a74388046c3812cd102,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -2864,6 +2872,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.7553445
+      objectReference: {fileID: 0}
+    - target: {fileID: 60076898694254713, guid: 144230ce7b7c3a74388046c3812cd102,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 729761601187505310, guid: 144230ce7b7c3a74388046c3812cd102,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1468293233951085160, guid: 144230ce7b7c3a74388046c3812cd102,
         type: 3}
@@ -2880,11 +2898,6 @@ PrefabInstance:
       propertyPath: m_UpdateWhenOffscreen
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: -8178057833164653975, guid: 144230ce7b7c3a74388046c3812cd102,
-        type: 3}
-      propertyPath: m_UpdateWhenOffscreen
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6136217137372151866, guid: 144230ce7b7c3a74388046c3812cd102,
         type: 3}
       propertyPath: m_UpdateWhenOffscreen
@@ -2895,22 +2908,7 @@ PrefabInstance:
       propertyPath: m_UpdateWhenOffscreen
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 60076898694254713, guid: 144230ce7b7c3a74388046c3812cd102,
-        type: 3}
-      propertyPath: m_UpdateWhenOffscreen
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 729761601187505310, guid: 144230ce7b7c3a74388046c3812cd102,
-        type: 3}
-      propertyPath: m_UpdateWhenOffscreen
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7634289202432473804, guid: 144230ce7b7c3a74388046c3812cd102,
-        type: 3}
-      propertyPath: m_UpdateWhenOffscreen
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -2419054551443661924, guid: 144230ce7b7c3a74388046c3812cd102,
         type: 3}
       propertyPath: m_UpdateWhenOffscreen
       value: 1
@@ -3556,7 +3554,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 61e9cbb6e7168ef4399a3c79544b5d97, type: 2}
+  - {fileID: 2100000, guid: df2f87b7488dda749b5f0dfeb0ba8972, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4012,12 +4010,22 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: f6ecfe4432cc6ca45a492c695f71ae4b,
         type: 3}
       propertyPath: m_Name
-      value: newbaselineGirl
+      value: Girl
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: f6ecfe4432cc6ca45a492c695f71ae4b,
         type: 3}
       propertyPath: m_TagString
       value: Lady
+      objectReference: {fileID: 0}
+    - target: {fileID: -6057140222963153312, guid: f6ecfe4432cc6ca45a492c695f71ae4b,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: b2e99d109134e4d4396934221c27500d, type: 2}
+    - target: {fileID: -5518106832878951072, guid: f6ecfe4432cc6ca45a492c695f71ae4b,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: f6ecfe4432cc6ca45a492c695f71ae4b,
         type: 3}
@@ -4074,31 +4082,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -6057140222963153312, guid: f6ecfe4432cc6ca45a492c695f71ae4b,
-        type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: b2e99d109134e4d4396934221c27500d, type: 2}
-    - target: {fileID: -5518106832878951072, guid: f6ecfe4432cc6ca45a492c695f71ae4b,
-        type: 3}
-      propertyPath: m_UpdateWhenOffscreen
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5085207970931666051, guid: f6ecfe4432cc6ca45a492c695f71ae4b,
-        type: 3}
-      propertyPath: m_UpdateWhenOffscreen
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -1897218028919474817, guid: f6ecfe4432cc6ca45a492c695f71ae4b,
-        type: 3}
-      propertyPath: m_UpdateWhenOffscreen
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 247391428912515258, guid: f6ecfe4432cc6ca45a492c695f71ae4b,
-        type: 3}
-      propertyPath: m_UpdateWhenOffscreen
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: -4027113323545789222, guid: f6ecfe4432cc6ca45a492c695f71ae4b,
         type: 3}
       propertyPath: m_UpdateWhenOffscreen
@@ -4109,7 +4092,22 @@ PrefabInstance:
       propertyPath: m_UpdateWhenOffscreen
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -1897218028919474817, guid: f6ecfe4432cc6ca45a492c695f71ae4b,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -1343951355436899614, guid: f6ecfe4432cc6ca45a492c695f71ae4b,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 247391428912515258, guid: f6ecfe4432cc6ca45a492c695f71ae4b,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5085207970931666051, guid: f6ecfe4432cc6ca45a492c695f71ae4b,
         type: 3}
       propertyPath: m_UpdateWhenOffscreen
       value: 1
@@ -4230,7 +4228,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 61e9cbb6e7168ef4399a3c79544b5d97, type: 2}
+  - {fileID: 2100000, guid: df2f87b7488dda749b5f0dfeb0ba8972, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
