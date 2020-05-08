@@ -67,7 +67,6 @@
     <Compile Include="Assets\Scripts\IKControl.cs" />
     <Compile Include="Assets\Scripts\ModifySpeed.cs" />
     <Compile Include="Assets\Scripts\Readjust.cs" />
-    <Compile Include="Assets\Scripts\ShowInfo.cs" />
     <Compile Include="Assets\Scripts\StartDance.cs" />
     <Compile Include="Assets\Scripts\SwitchCamera.cs" />
     <None Include="Assets\Resources\controls.txt" />

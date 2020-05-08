@@ -1722,8 +1722,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 933411146}
-        m_MethodName: showControls
+      - m_Target: {fileID: 2105832407}
+        m_MethodName: showInfo
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2332,6 +2332,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6bf76b146d502d40b2ac0cf5172788f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panel: {fileID: 0}
+  boxcontent: {fileID: 0}
+  content: {fileID: 0}
 --- !u!1 &947317552
 GameObject:
   m_ObjectHideFlags: 0

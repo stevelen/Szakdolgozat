@@ -16,6 +16,7 @@ public class StartDance : MonoBehaviour
     {
         panel = GameObject.FindGameObjectWithTag("TextBox");
         boxcontent = panel.GetComponentInChildren<Text>();
+        showInfo();
     }
     public void ClosedChange()
     {
@@ -82,6 +83,15 @@ public class StartDance : MonoBehaviour
             animator = GetComponent<Animator>();
             animator.SetTrigger("closed_change2");
         }
+    }
+
+    public void showInfo()
+    {
+
+        content = (TextAsset)Resources.Load(("controls"), typeof(TextAsset));
+        panel = GameObject.FindGameObjectWithTag("TextBox");
+        boxcontent = panel.GetComponentInChildren<Text>();
+        boxcontent.text = content.text;
     }
 
     private bool IsAnimationPlaying()
