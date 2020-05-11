@@ -386,7 +386,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 6efbffff86310000
+      m_ExpandedIDs: 48fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -446,9 +446,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 469.29114, y: 322.03198, z: -122.54388}
+    m_Target: {x: 460.18314, y: 132.2044, z: 83.07312}
     speed: 2
-    m_Value: {x: 484.9839, y: 329.95627, z: -119.0707}
+    m_Value: {x: 460.18314, y: 132.2044, z: 83.07312}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -477,13 +477,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.24934515, y: 0.5387712, z: -0.1706034, w: -0.7864784}
+    m_Target: {x: -0.13690074, y: -0.032101724, z: 0.004612966, w: -0.99010533}
     speed: 2
-    m_Value: {x: 0.24934511, y: -0.5387711, z: 0.17060336, w: 0.78647846}
+    m_Value: {x: -0.13690074, y: -0.032101724, z: 0.004612966, w: -0.99010533}
   m_Size:
     m_Target: 806.3055
     speed: 2
-    m_Value: 771.58417
+    m_Value: 806.3055
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -667,20 +667,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Pisti\Desktop\szakdolgozat\Szakdolgozat
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e22f0000
-    m_LastClickedID: 12258
-    m_ExpandedIDs: 00000000e02c00005a2e000000ca9a3b
+    m_SelectedIDs: de2c0000
+    m_LastClickedID: 11486
+    m_ExpandedIDs: 00000000de2c0000582e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -708,7 +708,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e02c00005a2e0000
+    m_ExpandedIDs: 00000000de2c0000582e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -735,7 +735,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000903400009a3300007c320000823b00007a320000c02e0000aa560000905700001e5700000e5700005a570000de560000805700002e57000070570000debc010084bc01004e1201008ebc0100500f01009e100100be320000b2320000e4300000fe2e0000fc38000014330000b8320000b83f0000dc2c00001e2e0000364000004c4000000c340000ea5d000034610000fa6a0000b4670000ae2f0000522e0000c02f0000442e0000aebdffff345200008c370000a63400005a2e0000f6390000442f00007c2e0000c63b00008e3a0000823100002c370000fc2c000014350000fe360000963500008037000076380000843300007a340000d834000002330000e6340000c62d0000ee350000e83600009c360000a6350000de2e0000fc2e0000c2350000dc360000cc2c00009248000098470000ae330000b6350000b8350000d833000098370000a82f0000523700003a3b0000b0360000a63700005c370000aa350000723f0000a83c0000f6340000e83900008c2e0000a62d000000000000ac2d0000942e0000242f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
